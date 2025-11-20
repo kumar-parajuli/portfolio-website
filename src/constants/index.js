@@ -50,7 +50,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developer(Java)",
     icon: backend,
   },
   {
@@ -115,22 +115,25 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Kiran",
+ {
+    title: "Android & Spring Boot Developer",
+    company_name: "Imark Pvt. Ltd",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributing to FewaGate — fintech backend using Spring Boot & Multi-modular architecture.",
+      "Developed Merchant module for onboarding, profile management & transactions.",
+      "Developed Card module with secure card registration & gateway integrations.",
+      "Implemented POS payment system in FewaPay (Sale, Void, Reversal, Refund, Settlement).",
+      "Integrated Newland & DX800 POS terminals used by 10,000+ merchants.",
+      "Improved system reliability by 30% through optimized API integrations.",
+      "Implemented unit & integration testing for secure, stable releases.",
     ],
   },
   {
     title: "Full Stack Developer",
-    company_name: "10 Minute School",
+    company_name: "Personal Prj",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "April 2021 - Sep 2022",
@@ -143,7 +146,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Rahul",
+    company_name: "Minor Prj",
     icon: shopify,
     iconBg: "#383E56",
     date: "Oct 2022 - Jan 2023",
@@ -156,7 +159,7 @@ const experiences = [
   },
   {
     title: "MERN Stack Developer",
-    company_name: "Pathao",
+    company_name: "Major Prj(Final-Yrs)",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
