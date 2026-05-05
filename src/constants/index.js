@@ -26,19 +26,12 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About", icon: "👤" },
+  { id: "work", title: "Work", icon: "💼" },
+  { id: "projects", title: "Projects", icon: "🚀" },
+  { id: "contact", title: "Contact", icon: "📩" },
 ];
+
 
 const services = [
   {
@@ -115,7 +108,7 @@ const technologies = [
 ];
 
 const experiences = [
- {
+  {
     title: "Android & Spring Boot Developer",
     company_name: "Imark Pvt. Ltd",
     icon: starbucks,
