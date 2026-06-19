@@ -4,13 +4,44 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: 5 8 22;
+  --color-secondary: 170 166 195;
+  --color-tertiary: 21 16 48;
+  --color-black-100: 16 13 37;
+  --color-black-200: 9 3 37;
+  --color-white-100: 243 243 243;
+  --color-white: 255 255 255;
+  --color-black: 0 0 0;
+  --experience-card-bg: #1d1836;
+  --experience-card-color: #fff;
+  --experience-arrow-color: #232631;
+  --loader-color: #f1f1f1;
+  color-scheme: dark;
+}
+
+.light {
+  --color-primary: 248 249 250;
+  --color-secondary: 107 114 128;
+  --color-tertiary: 243 244 246;
+  --color-black-100: 229 231 235;
+  --color-black-200: 249 250 251;
+  --color-white-100: 31 41 55;
+  --color-white: 17 24 39;
+  --color-black: 243 244 246;
+  --experience-card-bg: #ffffff;
+  --experience-card-color: #1f2937;
+  --experience-arrow-color: #e5e7eb;
+  --loader-color: #1f2937;
+  color-scheme: light;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
 
 .hash-span {
